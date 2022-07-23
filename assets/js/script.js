@@ -2,7 +2,7 @@
 var today = moment().format("MMM DD, YYYY");
 $("#currentDay").text(today);
 
-// 
+// The setItem() method using key name and value updates local storage
 var container = $(".container").click(function (event) {
 
     if (event.target.nodeName === "I") {
@@ -13,7 +13,7 @@ var container = $(".container").click(function (event) {
     }
 })
 
-// 
+// The getItem() method returns key value in local storage
 $(".9am").val(localStorage.getItem("9am"));
 $(".10am").val(localStorage.getItem("10am"));
 $(".11am").val(localStorage.getItem("11am"));

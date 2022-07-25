@@ -16,73 +16,55 @@
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p class="lead description">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
-    <div class="row">
-      <div class="col-1 time-block hour">9AM</div>
-      <textarea id="nineAm" class="9am entry-item col border" data-time="9"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="9am" class="fas fa-save"></i></button>
-      </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-1 rounded-0 time-block hour">9AM</div>
+      <textarea id="nineAm" class="9am entry-item col border form-control" data-time="9"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="9am" class="fas fa-save"></i></button>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-1 rounded-0 time-block hour">10AM</div>
+      <textarea id="tenAm" class="10am entry-item col border form-control" data-time="10"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="10am" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">10AM</div>
-      <textarea id="tenAm" class="10am entry-item col border" data-time="10"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="10am" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">11AM</div>
+      <textarea id="elevenAm" class="11am entry-item col border form-control" data-time="11"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="11am" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">11AM</div>
-      <textarea id="elevenAm" class="11am entry-item col border" data-time="11"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="11am" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">12PM</div>
+      <textarea id="twelvePm" class="12pm entry-item col border form-control" data-time="12"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="12pm" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">12PM</div>
-      <textarea id="twelvePm" class="12pm entry-item col border" data-time="12"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="12pm" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">1PM</div>
+      <textarea id="onePm" class="1pm entry-item col border form-control" data-time="13"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="1pm" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">1PM</div>
-      <textarea id="onePm" class="1pm entry-item col border" data-time="13"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="1pm" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">2PM</div>
+      <textarea id="twoPm" class="2pm entry-item col border form-control" data-time="14"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="2pm" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">2PM</div>
-      <textarea id="twoPm" class="2pm entry-item col border" data-time="14"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="2pm" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">3PM</div>
+      <textarea id="threePm" class="3pm entry-item col border form-control" data-time="15"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="3pm" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">3PM</div>
-      <textarea id="threePm" class="3pm entry-item col border" data-time="15"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="3pm" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">4PM</div>
+      <textarea id="fourPm" class="4pm entry-item col border form-control" data-time="16"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="4pm" class="fas fa-save"></i></button>
     </div>
     <div class="row">
-      <div class="col-1 time-block hour">4PM</div>
-      <textarea id="fourPm" class="4pm entry-item col border" data-time="16"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="4pm" class="fas fa-save"></i></button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-1 time-block hour">5PM</div>
-      <textarea id="fivePm" class="5pm entry-item col border" data-time="17"></textarea>
-      <div class="col-1 saveBtn">
-        <button class="btn-lg btn-info"><i id="5pm" class="fas fa-save"></i></button>
-      </div>
+      <div class="col-1 rounded-0 time-block hour">5PM</div>
+      <textarea id="fivePm" class="5pm entry-item col border form-control" data-time="17"></textarea>
+        <button class="saveBtn btn-lg btn-info"><i id="5pm" class="fas fa-save"></i></button>
     </div>
   </div>
 

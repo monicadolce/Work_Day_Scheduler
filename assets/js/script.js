@@ -1,5 +1,5 @@
 // Display current date using Moment.js.
-var today = moment().format("MMM DD, YYYY");
+var today = moment().format("dddd") + ", " + moment().format("MMMM Do YYYY");
 $("#currentDay").text(today);
 
 // The setItem() method using key name and value updates local storage.
